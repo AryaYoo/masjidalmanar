@@ -64,13 +64,13 @@
         }, 1000);
     </script>
 @else
-    <div id="countdown" class="text-center py-4" style="background-color:#a36231; box-shadow: 0 4px 8px rgba(0,0,0,0.2); box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div id="countdown" class="text-center py-4" style="background-color:rgb(93, 103, 240); box-shadow: 0 4px 8px rgba(0,0,0,0.2); box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
         <h2 class="text-white">Tidak ada Kajian untuk saat ini.</h2>
     </div>
 @endif
 
-<div id="jadwalsholat" class="" style="background-color: #622200">
-    <div class="container py-5 px-4 background-color text-white" style="background-color: #622200">
+<div id="jadwalsholat" class="" style="background-color: rgb(26, 24, 156)">
+    <div class="container py-5 px-4 background-color text-white" style="background-color: rgb(26, 24, 156)">
         <div class="row py-2 px-4 bg-transparent">
             <div class="col-4 card-header">
                 <h1 class="fw-bold text-white">Jadwal Sholat</h1>
@@ -143,7 +143,7 @@
         <div class="col-md-3">
             <a href="https://example.com/masjid" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="card division-card">
-                    <div style="width: 70px; height: 70px; background-color: #622200; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
+                    <div style="width: 70px; height: 70px; background-color: rgb(46, 44, 179); border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
                         <img src={{ Vite::asset('resources/images/masjid.svg')}} style="color: #fff; width: 43px; height: 43px;"></i>
                     </div>
                     <h5 class="card-title">Ibadah & Dakwah</h5>
@@ -153,7 +153,7 @@
         <div class="col-md-3">
             <a href="https://example.com/pendidikan" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="card division-card">
-                    <div style="width: 70px; height: 70px; background-color: #622200; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
+                    <div style="width: 70px; height: 70px; background-color: rgb(46, 44, 179); border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
                         <i class="bi bi-mortarboard" style="color: #fff; font-size: 30px;"></i>
                     </div>
                     <h5 class="card-title">Pendidikan</h5>
@@ -163,7 +163,7 @@
         <div class="col-md-3">
             <a href="https://example.com/sosial" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="card division-card">
-                    <div style="width: 70px; height: 70px; background-color: #622200; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
+                    <div style="width: 70px; height: 70px; background-color: rgb(46, 44, 179); border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
                         <i class="bi bi-people" style="color: #fff; font-size: 30px;"></i>
                     </div>
                     <h5 class="card-title">Sosial</h5>
@@ -173,7 +173,7 @@
         <div class="col-md-3">
             <a href="https://example.com/usaha" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="card division-card">
-                    <div style="width: 70px; height: 70px; background-color: #622200; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
+                    <div style="width: 70px; height: 70px; background-color: rgb(46, 44, 179); border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px;">
                         <i class="bi bi-bank" style="color: #fff; font-size: 30px;"></i>
                     </div>
                     <h5 class="card-title">Usaha</h5>
@@ -308,7 +308,7 @@
 
                     <!-- Submit Button -->
                     <div class="d-grid gap-2 mt-3">
-                        <button type="submit" class="btn btn-outline-light" style="background-color: #622200">Submit</button>
+                        <button type="submit" class="btn btn-outline-light" style="background-color: rgb(46, 44, 179)">Submit</button>
                     </div>
                 </div>
             </div>
@@ -427,7 +427,7 @@
         </div>
 </div>
 
-<div id="copyright" class="container-fluid py-3" style="background-color: #622200">
+<div id="copyright" class="container-fluid py-3" style="background-color: rgb(46, 44, 179">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 col-xs-12 text-center" style="color: white;">Masjid Al Iman Sutorejo Indah Surabaya | ©2024</div>

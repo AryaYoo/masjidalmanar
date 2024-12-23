@@ -7,7 +7,7 @@
             <h2 class="fw-bold text-center mb-4">Daftar Infaq Jamaah</h2>
             <div class="table-responsive">
                 <table class="table table-bordered table-hover table-striped bg-white yajra-datatable">
-                    <thead style="background-color: #8e4c28; color: white;">
+                    <thead style="background-color:rgb(46, 44, 179); color: white;">
                         <tr>
                             <th scope="col">No.</th>
                             <th scope="col">Nama</th>

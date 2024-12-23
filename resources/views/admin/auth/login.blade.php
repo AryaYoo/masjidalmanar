@@ -21,7 +21,7 @@
             </div>
             <div>
                 <h2 class="fw-bold text-center">Selamat Datang di</h2>
-                <h5 class="fw-lighter text-center">Masjid Al Iman Surabaya</h5>
+                <h5 class="fw-lighter text-center">Masjid Al Manar Surabaya</h5>
             </div>
             <form method="POST" action="{{ route('admin.login') }}">
                 @csrf
@@ -68,14 +68,14 @@
                                     </div>
                                     <div class="d-grid gap-2">
                                         <button type="submit" class="btn text-white"
-                                            style="background-color: #622200">
+                                            style="background-color: rgb(26, 24, 156)">
                                             <i class="bi-arrow-left-circle me-2"></i>
                                                     {{ __('Login') }}
                                         </button>
                                     </div>
                                     <div class="row">
                                         <div class="text-center mt-3 mb-3">
-                                            <p >Jamaah Baru di Al Iman? <a href="{{ route('register') }}">Daftar Jamaah</a></p>
+                                            <p >Jamaah Baru di Al Manar? <a href="{{ route('register') }}">Daftar Jamaah</a></p>
                                         </div>
                                     </div>
                                 </form>
@@ -85,7 +85,7 @@
                 </div>
 
         </div>
-        <div class="col p-5" style="background-color: #622200">
+        <div class="col p-5" style="background-color: rgb(26, 24, 156)">
         </div>
 
     </div>

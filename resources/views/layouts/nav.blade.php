@@ -1,7 +1,7 @@
 <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white shadow">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src={{ Vite::asset('resources/images/logo.png') }} alt="" width="62" height="62">
+            <img src={{ Vite::asset('resources/images/logo.png') }} alt="" width="98" height="62">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Sejarah</h5>
                                     <p class="card-text">Pembangunan yang berkesinambungan mengharuskan adanya suatu perencanaan jangka panjang. Diharapkan dengan adanya perencanaan ini, arah pembangunan yang diinginkan dapat dicapai secara bertahap.</p>
-                                    <a href="#" class="btn text-white" style="background-color: #622200" >Pelajari Selengkapnya</a>
+                                    <a href="#" class="btn text-white" style="background-color: rgb(26, 24, 156)" >Pelajari Selengkapnya</a>
                                 </div>
                             </div>
                         </li>
@@ -48,7 +48,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Struktur Organisasi</h5>
                                     <p class="card-text"></p>
-                                    <a target="_blank" href="https://drive.google.com/file/d/1mlKAQmGScW1LiuNoznt4NKvKXQBRfe-a/view?usp=sharing" class="btn text-white" style="background-color: #622200" >Lihat lebih detail</a>
+                                    <a target="_blank" href="https://drive.google.com/file/d/1mlKAQmGScW1LiuNoznt4NKvKXQBRfe-a/view?usp=sharing" class="btn text-white" style="background-color: rgb(26, 24, 156)" >Lihat lebih detail</a>
                                 </div>
                             </div>
                         </li>
@@ -63,13 +63,13 @@
                 @guest
                     @if (Route::has('login'))
                         <li class="nav-item">
-                            <a class="btn m-2 px-4 text-white" style="background-color: #622200" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a class="btn m-2 px-4 text-white" style="background-color:rgb(26, 24, 156)" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                     @endif
 
                     @if (Route::has('register'))
                         <li class="nav-item">
-                            <a class="btn m-2 px-4 text-white" style="background-color: #622200" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="btn m-2 px-4 text-white" style="background-color: rgb(26, 24, 156)" href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
                     @endif
                 @else

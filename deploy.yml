@@ -1,0 +1,14 @@
+- name: Deploy application to Kubernetes
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Deploy deployment
+      kubernetes.core.k8s:
+        state: present
+        definition:
+          apiVersion: apps/v1
+          kind: Deployment
+          metadata:
+            name: my-app
+          spec:

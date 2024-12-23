@@ -21,7 +21,7 @@
             </div>
             <div>
                 <h2 class="fw-bold text-center">Selamat Datang di</h2>
-                <h5 class="fw-lighter text-center">Masjid Al Iman Surabaya</h5>
+                <h5 class="fw-lighter text-center">Masjid Al Manar Surabaya</h5>
             </div>
             <form method="POST" action="{{ route('register') }}">
                 @csrf
