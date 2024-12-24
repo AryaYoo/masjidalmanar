@@ -35,7 +35,7 @@
                             </div>
 
                             <div class="d-grid gap-2">
-                                <button type="submit" class="btn text-white" style="background-color: #622200">
+                                <button type="submit" class="btn text-white" style="background-color: rgb(26, 24, 156)">
                                     {{ __('Send Password Reset Link') }}
                                 </button>
                             </div>
@@ -46,7 +46,7 @@
         </form>
     </div>
 
-    <div class="col p-5" style="background-color: #622200">
+    <div class="col p-5" style="background-color: rgb(26, 24, 156)">
     </div>
 </div>
 @endsection

@@ -230,7 +230,7 @@
                             <h5 class="fs-5 fw-bold">Informasi No. Rekening</h5>
                             <h3>Bank Syariah Indonesia</h3>
                             <h3>6011333336</strong></h3>
-                            <p>A/N YYS Masjid Al Iman Sutorejo Indah</p>
+                            <p>A/N YYS Masjid Al Manar Sutorejo Indah</p>
                         </div>
                     </div>
             </div>
@@ -407,7 +407,7 @@
                             <ul class="list-unstyled ">
                                 <li class="mb-2"><a >Pesantrean Mahasiswa</a></li>
                                 <li class="mb-2"><a >Tadarus Al Qur'an</a></li>
-                                <li class="mb-2"><a >Syabab Rimayah Community Al Iman</a></li>
+                                <li class="mb-2"><a >Syabab Rimayah Community Al Manar</a></li>
                                 <li class="mb-2"><a >Panitia Ramadhan 1445 H</a></li>
                                 <li class="mb-2"><a >Panitia Idul Adha 1445 H</a></li>
                             </ul>
@@ -430,7 +430,7 @@
 <div id="copyright" class="container-fluid py-3" style="background-color: rgb(46, 44, 179">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-xs-12 text-center" style="color: white;">Masjid Al Iman Sutorejo Indah Surabaya | ©2024</div>
+            <div class="col-sm-12 col-xs-12 text-center" style="color: white;">Masjid Al Manar Sutorejo Indah Surabaya | ©2024</div>
         </div>
     </div>
 </div>

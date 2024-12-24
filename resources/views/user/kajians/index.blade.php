@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <div class="card shadow-sm border-0">
         <div class="card-body">
-            <h2 class="mb-4">Daftar Kajian</h2>
+            <h2 class="mb-4">Daftar Kegiatan</h2>
             <table class="table table-borderless">
                 <tbody>
                     @foreach ($kajians as $kajian)

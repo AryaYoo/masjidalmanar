@@ -5,7 +5,7 @@
     <div class="card shadow-sm border-0">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-center mb-4">
-                <h2 class="h4">Daftar Kajian</h2>
+                <h2 class="h4">Daftar Kegiatan</h2>
                 <a href="{{ route('kajians.create') }}" class="btn btn-primary btn-block" style="background-color: #622200; border-color: #622200;">
                     <i class="bi bi-plus-circle me-2"></i> Tambah Kajian
                 </a>
